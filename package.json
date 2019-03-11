@@ -1,0 +1,27 @@
+{
+  "description": "Examples for the SVG Live Drawing library.",
+  "scripts": {
+    "compile": "rm -rf dist && mkdir dist && tsc",
+    "bundle": "browserify dist/main.js | uglifyjs > bundle/app.js",
+    "build": "npm run compile && npm run bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/convivo-gmbh/svg-live-drawing-examples.git"
+  },
+  "author": "convivo GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/convivo-gmbh/svg-live-drawing-examples/issues"
+  },
+  "homepage": "https://github.com/convivo-gmbh/svg-live-drawing-examples#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "typescript": "^3.3.3",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+	  "svg-live-drawing": "^0.1.1",
+    "@daign/math": "^1.0.3"
+  }
+}
