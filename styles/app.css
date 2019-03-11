@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  background: #ddd;
+}
+
+.context {
+  background: #fff;
+}
+
+.grid.active .basicRectangle {
+  fill: url(#GridPattern);
+}
+
+.grid.hidden .basicRectangle {
+  fill: none;
+}
+
+.gridPattern .basicPath {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1;
+}
+
+.rectangleControl .basicRectangle {
+  fill: none;
+  stroke: #009;
+  stroke-width: 5;
+}
+
+.circleControl .basicCircle {
+  fill: none;
+  stroke: #009;
+  stroke-width: 5;
+}
+
+.polygonControl .basicPolygon {
+  fill: none;
+  stroke: #009;
+  stroke-width: 5;
+}
+
+.controlPoint {
+  fill: #009;
+}
+
+.boundingBox .basicRectangle {
+  fill: none;
+  stroke: #f00;
+  stroke-width: 5;
+}
+
+.floatBar.active .basicRectangle {
+  fill: #000;
+}
+
+.floatBar.hidden .basicRectangle {
+  fill: none;
+}
+
+.floatBar.active .basicText {
+  fill: #fff;
+}
+
+.floatBar.hidden .basicText {
+  fill: none;
+}
+
