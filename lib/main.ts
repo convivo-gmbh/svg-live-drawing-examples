@@ -39,4 +39,3 @@ button3.addEventListener( 'click', () => {
 button4.addEventListener( 'click', () => {
   app.toggleGrid();
 }, false );
-

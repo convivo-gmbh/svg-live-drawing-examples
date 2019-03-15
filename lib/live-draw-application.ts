@@ -5,7 +5,7 @@ export class LiveDrawApplication extends Application {
   private grid: Grid;
   private gridModifier: GridModifier;
 
-  constructor( container: any ) {
+  public constructor( container: any ) {
     super( container );
 
     this.grid = new Grid();
@@ -33,4 +33,3 @@ export class LiveDrawApplication extends Application {
     this.selectionManager.set( null );
   }
 }
-
