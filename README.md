@@ -1,6 +1,8 @@
 # svg-live-drawing-examples
 Examples for the SVG Live Drawing library.
 
+[Online Demo][demo-url]
+
 ## Scripts
 
 #### Build
@@ -10,3 +12,5 @@ Examples for the SVG Live Drawing library.
 #### Run lint analysis
 
     npm run lint
+
+[demo-url]: https://convivo-gmbh.github.io/svg-live-drawing-examples/
