@@ -1,7 +1,7 @@
 # svg-live-drawing-examples
-Examples for the SVG Live Drawing library.
+Examples for the [SVG Live Drawing library](https://github.com/convivo-gmbh/svg-live-drawing).
 
-[Online Demo][demo-url]
+**[Online Demo][demo-url]**
 
 ## Scripts
 
